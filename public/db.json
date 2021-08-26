@@ -1,0 +1,186 @@
+{
+  
+    "products": [
+        {
+          "id": 1,
+          "sku": 0,
+          "title": "The Breakfast Club",
+          "description": "The Breakfast Club",
+          "availableSizes": ["X", "L", "XL", "XXL"],
+          "price": 20,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 2,
+          "sku": 1,
+          "title": "Don't Forget About Me",
+          "description": "Don't Forget About Me",
+          "availableSizes": ["X", "M", "L"],
+          "price": 14.9,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 3,
+          "sku": 3,
+          "title": "TB Club",
+          "description": "TB Club",
+          "availableSizes": ["X", "M", "L"],
+          "price": 19.9,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 4,
+          "sku": 11,
+          "title": "Blanche Neige",
+          "description": "Blanche Neige",
+          "availableSizes": ["XL"],
+          "price": 25.9,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 5,
+          "sku": 6,
+          "title": "Ross Lynch",
+          "description": "Ross Lynch",
+          "availableSizes": ["X", "L", "XL"],
+          "price": 10.9,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 6,
+          "sku": 22,
+          "title": "Cinderella",
+          "description": "Man Tie Dye Cinza Grey",
+          "availableSizes": ["XL", "XXL"],
+          "price": 49.9,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 7,
+          "sku": 33,
+          "title": "Lily",
+          "description": "1977 Infantil",
+          "availableSizes": ["S"],
+          "style": "Preto com listras brancas",
+          "price": 22.5,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 8,
+          "sku": 44,
+          "title": "Minnie",
+          "description": "",
+          "availableSizes": ["XL"],
+          "style": "Azul escuro",
+          "price": 45,
+          "isFreeShipping": false
+        },
+        {
+          "id": 9,
+          "sku": 55,
+          "title": "Beaty&TheBeast",
+          "description": "",
+          "availableSizes": ["L", "XL"],
+          "price": 39.9,
+          "isFreeShipping": true
+        },
+        {
+          "id": 10,
+          "sku": 66,
+          "title": "F.R.I.E.N.D.S",
+          "description": "Sphynx Tie Dye Grey",
+          "availableSizes": ["X", "L", "XL", "XXL"],
+          "price": 29.9,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 11,
+          "sku": 77,
+          "title": "PIVOT",
+          "description": "Danger Knife Grey",
+          "availableSizes": ["X", "M", "L"],
+          "price": 17.9,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 12,
+          "sku": 88,
+          "title": "Be Quiet",
+          "description": "White DGK Script",
+          "availableSizes": ["X", "M", "L"],
+          "price": 25,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 13,
+          "sku": 99,
+          "title": "Women",
+          "description": "Born On The Streets",
+          "availableSizes": ["XL"],
+          "price": 12.8,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 14,
+          "sku": 2,
+          "title": "Breakfast  ",
+          "description": "Tso 3D Short Sleeve",
+          "availableSizes": ["X", "L", "XL"],
+          "price": 10.9,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 15,
+          "sku": 4,
+          "title": "Heart   ",
+          "description": "Man Tie Dye Cinza Grey",
+          "availableSizes": ["XL", "XXL"],
+          "price": 49.9,
+          "isFreeShipping": false
+        },
+    
+        {
+          "id": 18,
+          "sku": 5,
+          "title": "Kind   ",
+          "description": "1977 Infantil",
+          "availableSizes": ["S"],
+          "style": "Preto com listras brancas",
+          "price": 22.5,
+          "isFreeShipping": true
+        },
+    
+        {
+          "id": 16,
+          "sku": 7,
+          "title": "Bonjour   ",
+          "description": "",
+          "availableSizes": ["XL"],
+          "style": "Azul escuro",
+          "price": 18.7,
+          "isFreeShipping": false
+        },
+        {
+          "id": 17,
+          "sku": 8,
+          "title": "Wonderlust  ",
+          "description": "",
+          "availableSizes": ["L", "XL"],
+          "price": 13.9,
+          "isFreeShipping": true
+        }
+       
+      ]
+    }
