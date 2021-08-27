@@ -7,22 +7,30 @@ import store from "./store";
 import Footer from "./components/Footer";
 import SignIn from "./SignIn";
 import "./App.css";
-
+import {BrowserRouter as Router , Switch , Route  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Navbar from "./components/Navbar";
 
 
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <Provider store={store}>
-        <div className="container">
-<header className="block row2 center">
-<h1>Maryouli.tn</h1>
-<a className="sign" href="#/signin">  Sign In  </a>
+      <Navbar/>
 
+{/* <header className="block row2 center">
+<h1>Maryouli.tn</h1>
+<Link to="/SignIn" >
+<a    className="sign" href="/SignIn">  Sign In  </a> </Link>
+<a href="#intro">Sign In </a>  
+<Route path="/SignIn" component={SignIn}/>
 <hr />
-</header>
-          
+</header> */}
+<Switch>
+  <Route exact path="/">
+        <div className="container">
           <div className="row">
             <div className="col-md-9">
               <Filter />
@@ -37,10 +45,14 @@ class App extends Component {
 
           <Footer />
 
-
         </div>
-
+        </Route>
+<Route path="SignIn">
+  <SignIn/>
+</Route>
+        </Switch>
       </Provider>
+      </Router>
     );
     
   }

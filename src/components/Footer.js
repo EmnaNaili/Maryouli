@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaFacebook , FaInstagram } from "react-icons/fa";
 
 import {
   Box,
@@ -41,18 +42,19 @@ const Footer = () => {
           <Column>
             <Heading>Social Media</Heading>
             <FooterLink href="#">
-              <i className="fab fa-facebook-f">
+            <FaFacebook/>
+
                 <span style={{ marginLeft: "10px" }}>
                   Facebook
                 </span>
-              </i>
+
             </FooterLink>
             <FooterLink href="#">
-              <i className="fab fa-instagram">
+              <FaInstagram/>
                 <span style={{ marginLeft: "10px" }}>
                   Instagram
                 </span>
-              </i>
+              
             </FooterLink>
            
           </Column>
